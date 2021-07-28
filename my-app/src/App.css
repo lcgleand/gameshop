@@ -15,14 +15,28 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 8vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+  border: red 2px;
+  text-align: left;
+  }
+
+.App-body{
+background-color: white;
+min-height: 74vh;
+
+}  
+
+.App-footer{
+  background-color: blue;
+  min-height: 8vh;
+  
+  }  
 
 .App-link {
   color: #61dafb;
