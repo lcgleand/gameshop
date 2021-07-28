@@ -8,7 +8,7 @@ function App() {
       </header>
       <body className="App-body">
             <div>
-             <h2>Produtos</h2>
+             <h3>Produtos</h3>
 
             </div>
       </body>
