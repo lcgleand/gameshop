@@ -37,11 +37,39 @@
   justify-content: left;
   font-size: calc(10px + 2vmin);
   color: #232249;
-  border: red 2px;
-  
-
-
+  border: 2px solid red ;
 }  
+
+.Produtosbarra{
+  background-color: white;
+  min-height: 4vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  color: #232249;
+  text-align: left;
+  padding-left: 4vh;
+  border-bottom: 1px solid #232249;
+}
+
+.Produtosorganiza{
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: right;
+  font-size: calc(10px + 2vmin);
+  color: #232249;
+  padding-right: 4vh;
+  border: 2px solid red ;
+}
+
+#orgprodutos{
+  margin: 2vh;
+  
+}
 
 .App-footer{
   background-color: #232249;

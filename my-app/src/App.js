@@ -7,9 +7,21 @@ function App() {
         <h3>GameShop</h3>
       </header>
       <body className="App-body">
-            <div>
-             <h3>Produtos</h3>
-
+            <div className= "Produtosbarra">
+              
+              <h3>Produtos</h3>
+              <div className= "Produtosorganiza">
+                
+                <form  >
+                <span> Organizar por:</span>
+                  <select id="orgprodutos" name="cars">
+                    <option value="nome">Nome</option>
+                    <option value="preço">Preço</option>
+                    <option value="score">Score</option>
+                  </select>
+                  
+                </form>
+              </div>
             </div>
       </body>
       <footer className="App-footer">
