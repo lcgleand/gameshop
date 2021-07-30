@@ -10,10 +10,10 @@ function App() {
             <div className= "Produtosbarra">
               
               <h3>Produtos</h3>
-              <div className= "Produtosorganiza">
-                
-                <form  >
-                <span> Organizar por:</span>
+             
+               
+                <form className= "Produtosorganiza" >
+                Organizar por:
                   <select id="orgprodutos" name="cars">
                     <option value="nome">Nome</option>
                     <option value="preço">Preço</option>
@@ -21,7 +21,8 @@ function App() {
                   </select>
                   
                 </form>
-              </div>
+                
+             
             </div>
       </body>
       <footer className="App-footer">

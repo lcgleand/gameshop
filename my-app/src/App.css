@@ -44,7 +44,7 @@
   background-color: white;
   min-height: 4vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: left;
   justify-content: left;
   font-size: calc(10px + 2vmin);
@@ -55,20 +55,32 @@
 }
 
 .Produtosorganiza{
-  text-align: right;
+  text-align: right ;
   display: flex;
-  flex-direction: column;
-  align-items: right;
+  flex-direction: row;
+  align-items: flex-end;
   justify-content: right;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(8px + 2vmin);
   color: #232249;
   padding-right: 4vh;
   border: 2px solid red ;
+  
+  
+}
+
+h3{
+  align-items: flex-start;
+  border: 2px solid red ;
+ 
+
 }
 
 #orgprodutos{
   margin: 2vh;
+  font-size: calc(6px + 2vmin);
   
+  align-items: flex-end;
+  text-align: justify;
 }
 
 .App-footer{
